@@ -98,8 +98,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 Your Name
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
+- GitHub: [@yourusername]([https://github.com/yourusername](https://github.com/SJesan))
+- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/sadikul-islam-jesan/))
 
 ## 🙏 Acknowledgments
 
