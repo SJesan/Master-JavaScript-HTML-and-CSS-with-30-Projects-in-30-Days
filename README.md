@@ -89,17 +89,13 @@ cd "Day X Project Name"
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/javascript-30-projects/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/SJesan/javascript-30-projects/issues).
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Author
 
-Your Name
-- GitHub: [@yourusername]([https://github.com/yourusername](https://github.com/SJesan))
-- LinkedIn: [Your LinkedIn]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/sadikul-islam-jesan/))
+- GitHub: [@SJesan](https://github.com/SJesan)  
+- LinkedIn: [M M Sadikul Islam Jesan](https://www.linkedin.com/in/sadikul-islam-jesan/)
 
 ## 🙏 Acknowledgments
 
