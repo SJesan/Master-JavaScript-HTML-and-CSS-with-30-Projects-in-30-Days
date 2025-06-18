@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shake on Invalid Input</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+  .shake {
+    animation: shake 0.3s;
+  }
+
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-6px); }
+    40%, 80% { transform: translateX(6px); }
+  }
+</style>
+
+</head>
+<body class="bg-gray-600 h-screen flex justify-center items-center">
+    <form class="bg-white/10 text-white shadow-2xl shadow-black p-8 ">
+        <div class="text-xl hidden  text-red-500 " id="massage">Please enter something!</div>
+        <input type="text" class="bg-white/10 px-4 py-1 m-3 rounded-sm font-semibold focus:ring-red-600 border-spacing-10" id="input" placeholder="Input here">
+        <button class="bg-blue-500 px-5  py-2 rounded-lg text-black font-bold hover:scale-110 hover:bg-blue-600" id="btn" >Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

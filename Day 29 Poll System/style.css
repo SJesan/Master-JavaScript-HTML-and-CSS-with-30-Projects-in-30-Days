@@ -1,0 +1,126 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: cardAnimation 1s ease-in-out;
+    width: 350px;
+}
+
+@keyframes cardAnimation {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: #ff1493;
+    font-size: 32px;
+    opacity: 1;
+}
+
+.poll {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #ff1493;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* spacing between options */
+    width: 100%;
+}
+
+.option {
+    width: 100%;
+}
+
+.option button {
+    width: 100%;
+    background-color: #f3f3f3;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.option button:hover {
+    background-color: #ff85c1; /* lighter pink for hover */
+    color: white;
+    border-color: #ff85c1;
+}
+
+.option button.active {
+    background-color: #c7006f; /* darker pink for active */
+    color: white;
+    border-color: #c7006f;
+}
+
+
+button#btn {
+    background-color: #ff1493;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button#btn:hover {
+    background-color: #ff0055;
+}
+
+.results > div {
+    background-color: #ffe6f0;
+    border: 1px solid #ffb6c1;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    animation: cardAnimation 0.5s ease-in-out;
+}
+
+.results span {
+    font-weight: bold;
+    color: #ff1493;
+}

@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #3498db;
+    color: white;
+}
+
+.container{
+    text-align: center;
+}
+
+.number-container{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from{   
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+button{
+    background-color: #1c1741;
+    color: white;
+    padding: 1rem 2rem;
+    border:none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: #0f4e29;
+}
+
+.range-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.range-inputs input {
+    width: 100px;
+    padding: 0.6rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    color: #1c1741;
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.range-inputs input:focus {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.range-inputs span {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.warning {
+  padding: 10px;
+  font-size: 16px;
+  color: red;
+  background-color: #ffe6e6;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Optional: class to hide the message */
+.hidden {
+  display: none;
+}
